@@ -7,7 +7,7 @@ def fib(n):
         print(a, end=' ')
         a, b = b, a+b
     print()
-fib(1000)
+fib(10000)
 
 
 def fib2(n):
@@ -19,4 +19,4 @@ def fib2(n):
         a = b
         b = tmp + b
     print()
-fib2(1000)
+fib2(10000)
